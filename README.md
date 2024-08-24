@@ -10,7 +10,7 @@
 
 1. Клонируйте репозиторий:
 
-   ``git clone <URL-вашего-репозитория>``
+``git clone https://github.com/NPotokin/Calc_test_task.git``
 
 2. Перейдите в директорию проекта:
 
