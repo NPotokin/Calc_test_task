@@ -1,0 +1,33 @@
+@import url('../../Styles/variables.css');
+
+
+.button {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    flex: 1 1 20%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--color-special-hover);
+}
+
+.button_special {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+}
+
+.button_special:hover {
+    background-color: var(--color-special-hover);
+    color: var(--color-primary);
+}
+

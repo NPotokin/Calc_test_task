@@ -1,0 +1,24 @@
+@import url('../../Styles/variables.css');
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    background-color: var(--color-background);
+}
+
+.calculator__buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculator__divider {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-primary);
+    margin: 10px 0;
+}

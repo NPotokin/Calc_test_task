@@ -1,0 +1,15 @@
+@import url('../../Styles/variables.css');
+
+.display {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 10px 0;
+    text-align: right;
+    letter-spacing: 3px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    flex: 1;
+}
